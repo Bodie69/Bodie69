@@ -133,22 +133,24 @@
     }
     @media (max-width: 768px) {
     .icons{
-    display: inline-flex; 
+    width: 80px; 
+    height: 80px; 
+    display: inline-flex;
     }
     #check:checked~.icons #menu-icon {
-    display: inline-flex;
-    width: 20px; 
-    height: 20px; 
+    width: 80px; 
+    height: 80px; 
+    display: none;
     }
     .icons #close-icon{
-    display: none;
     width: 80px; 
     height: 80px; 
+    display: none;
     }
     #check:checked~.icons #close-icon {
-    display: block;
     width: 80px; 
     height: 80px; 
+    display: block;
     }
     .navbar{
     position: absolute;
@@ -177,3 +179,6 @@
     #check:checked~.navbar a {
     transform: translateY(0);
     opacity: 1
+    transition-delay: calc(.15s * var(--i));
+}
+}
