@@ -137,14 +137,7 @@
     height: 80px; 
     display: inline-flex;
     }
-    .icons #menu-icon{
-    width: 80px; 
-    height: 80px; 
-    display: none;
-    }
-    #check:checked~.icons #menu-icon {
-    width: 1rem; 
-    height: 1rem; 
+    #check:checked~.icons #menu-icon { 
     display: none;
     }
     .icons #close-icon{
