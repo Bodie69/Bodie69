@@ -137,6 +137,8 @@
     }
     #check:checked~.icons #menu-icon {
     display: none;
+    width: 80px; 
+    height: 80px; 
     }
     .icons #close-icon{
     display: none;
