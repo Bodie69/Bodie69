@@ -134,6 +134,8 @@
     @media (max-width: 768px) {
     .icons{
     display: inline-flex;
+    width: 80px; 
+    height: 80px; 
     }
     #check:checked~.icons #menu-icon {
     display: none;
@@ -142,9 +144,13 @@
     }
     .icons #close-icon{
     display: none;
+    width: 80px; 
+    height: 80px; 
     }
     #check:checked~.icons #close-icon {
     display: block;
+    width: 80px; 
+    height: 80px; 
     }
     .navbar{
     position: absolute;
