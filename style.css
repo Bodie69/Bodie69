@@ -138,7 +138,7 @@
     height: 80px; 
     }
     #check:checked~.icons #menu-icon {
-    display: none;
+    display: block;
     width: 80px; 
     height: 80px; 
     }
